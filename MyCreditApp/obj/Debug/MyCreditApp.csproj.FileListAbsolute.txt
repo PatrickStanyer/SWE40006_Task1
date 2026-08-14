@@ -1,0 +1,7 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\bin\Debug\MyCreditApp.exe.config
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\bin\Debug\MyCreditApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\bin\Debug\MyCreditApp.pdb
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\obj\Debug\MyCreditApp.csproj.AssemblyReference.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\obj\Debug\MyCreditApp.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\obj\Debug\MyCreditApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditApp\obj\Debug\MyCreditApp.pdb
