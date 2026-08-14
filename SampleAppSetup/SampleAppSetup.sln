@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SampleAppSetup", "SampleAppSetup.wixproj", "{8D202B65-D934-4033-A188-ED153F544B17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D202B65-D934-4033-A188-ED153F544B17}.Debug|x86.ActiveCfg = Debug|x86
+		{8D202B65-D934-4033-A188-ED153F544B17}.Debug|x86.Build.0 = Debug|x86
+		{8D202B65-D934-4033-A188-ED153F544B17}.Release|x86.ActiveCfg = Release|x86
+		{8D202B65-D934-4033-A188-ED153F544B17}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6535D12-15F6-4A78-8567-81AAE9D4846E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleAppSetup\bin\Release\SampleAppSetup.msi
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleAppSetup\bin\Release\SampleAppSetup.wixpdb
+obj\Release\Product.wixobj
+obj\Release\SampleAppSetup.wixproj.BindContentsFileListnull.txt
+obj\Release\SampleAppSetup.wixproj.BindOutputsFileListnull.txt
+obj\Release\SampleAppSetup.wixproj.BindBuiltOutputsFileListnull.txt

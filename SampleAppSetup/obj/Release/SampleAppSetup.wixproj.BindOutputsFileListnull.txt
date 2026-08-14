@@ -1,0 +1,2 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleAppSetup\bin\Release\SampleAppSetup.msi
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleAppSetup\bin\Release\SampleAppSetup.wixpdb
