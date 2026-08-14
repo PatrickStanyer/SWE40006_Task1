@@ -1,0 +1,1 @@
+..\MyCreditApp\bin\Release\MyCreditApp.exe

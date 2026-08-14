@@ -1,0 +1,6 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditAppSetup\bin\Release\MyCreditAppSetup.msi
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyCreditAppSetup\bin\Release\MyCreditAppSetup.wixpdb
+obj\Release\Product.wixobj
+obj\Release\MyCreditAppSetup.wixproj.BindContentsFileListnull.txt
+obj\Release\MyCreditAppSetup.wixproj.BindOutputsFileListnull.txt
+obj\Release\MyCreditAppSetup.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="MyCreditApp Setup" Language="1033" Version="1.0.0.0"
+           Manufacturer="YourName"
+           UpgradeCode="{FF7C0E00-5751-48C4-9F66-2ADAB14D6D75}">
+
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+    <MediaTemplate EmbedCab="yes" />
+
+    <UIRef Id="WixUI_Minimal" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="MyCreditApp" />
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="MainExecutable" Guid="{29292AC6-92BE-437C-8962-8F0DA2AB40E2}">
+        <File Id="MyCreditAppEXE" Source="..\MyCreditApp\bin\Release\MyCreditApp.exe" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="ProductFeature" Title="MyCreditApp" Level="1">
+      <ComponentRef Id="MainExecutable" />
+    </Feature>
+
+  </Product>
+</Wix>
