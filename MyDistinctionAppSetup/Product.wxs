@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <Product Id="*"
+           Name="MyDistinctionApp Installer"
+           Language="1033"
+           Version="1.0.0.0"
+           Manufacturer="Patrick"
+           UpgradeCode="{437493F0-1669-4E3A-8055-BA584A089E0E}">
+
+    <Package InstallerVersion="500"
+             Compressed="yes"
+             InstallScope="perMachine" />
+
+    <Media Id="1" Cabinet="MyDistinctionApp.cab" EmbedCab="yes" />
+
+    <UIRef Id="WixUI_InstallDir" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="MyDistinctionApp" />
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ProgramMenuDir" Name="MyDistinctionApp" />
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+
+      <Component Id="InstallFolderComponent"
+                 Guid="{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}">
+        <CreateFolder />
+      </Component>
+
+      <Component Id="MainExecutable"
+                 Guid="{1570E824-AD81-4B8C-B5B1-9091F7483322}">
+        <File Id="MyDistinctionAppEXE"
+              Source="$(var.MyDistinctionApp.TargetDir)\MyDistinctionApp.exe"
+              KeyPath="yes" />
+      </Component>
+
+      <Component Id="NewtonsoftJsonDLL"
+                 Guid="{BBA8934B-C219-40E2-B04C-6FFE61234345}">
+        <File Id="NewtonsoftJsonFile"
+              Source="$(var.MyDistinctionApp.TargetDir)\Newtonsoft.Json.dll" />
+      </Component>
+
+      <Component Id="SQLiteManagedDLL"
+                 Guid="{F94180B0-5967-4F9D-82FB-CA3FB0A63A77}">
+        <File Id="SQLiteManagedFile"
+              Source="$(var.MyDistinctionApp.TargetDir)\System.Data.SQLite.dll" />
+      </Component>
+
+      <!-- NEW: Correct SQLite folder structure -->
+
+      <Directory Id="X64Folder" Name="x64">
+        <Component Id="SQLiteInteropX64" Guid="{D1A1F4C3-9B2E-4F8C-9A1E-1234567890AB}">
+          <File Id="SQLiteInteropFileX64"
+                Source="$(var.MyDistinctionApp.TargetDir)\x64\SQLite.Interop.dll"
+                KeyPath="yes" />
+        </Component>
+      </Directory>
+
+      <Directory Id="X86Folder" Name="x86">
+        <Component Id="SQLiteInteropX86" Guid="{A2B3C4D5-E6F7-4890-ABCD-0987654321FE}">
+          <File Id="SQLiteInteropFileX86"
+                Source="$(var.MyDistinctionApp.TargetDir)\x86\SQLite.Interop.dll"
+                KeyPath="yes" />
+        </Component>
+      </Directory>
+
+      <!-- OLD BROKEN COMPONENT REMOVED -->
+      <!-- <Component Id="SQLiteInteropDLL" ... /> -->
+
+    </DirectoryRef>
+
+    <DirectoryRef Id="ProgramMenuDir">
+      <Component Id="AppShortcut"
+                 Guid="{E7A1D9B3-9C6E-4F7C-9A3E-1A2B3C4D5E6F}">
+        <Shortcut Id="StartMenuShortcut"
+                  Name="MyDistinctionApp"
+                  Description="Launch MyDistinctionApp"
+                  Target="[INSTALLFOLDER]MyDistinctionApp.exe"
+                  WorkingDirectory="INSTALLFOLDER" />
+        <RemoveFolder Id="RemoveShortcut" On="uninstall" />
+        <RegistryValue Root="HKCU"
+                       Key="Software\MyDistinctionApp"
+                       Name="installed"
+                       Type="integer"
+                       Value="1"
+                       KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainFeature" Title="MyDistinctionApp" Level="1">
+      <ComponentRef Id="InstallFolderComponent" />
+      <ComponentRef Id="MainExecutable" />
+      <ComponentRef Id="NewtonsoftJsonDLL" />
+      <ComponentRef Id="SQLiteManagedDLL" />
+
+      <!-- NEW: Correct SQLite components -->
+      <ComponentRef Id="SQLiteInteropX64" />
+      <ComponentRef Id="SQLiteInteropX86" />
+
+      <!-- OLD BROKEN COMPONENT REMOVED -->
+      <!-- <ComponentRef Id="SQLiteInteropDLL" /> -->
+
+      <ComponentRef Id="AppShortcut" />
+    </Feature>
+
+  </Product>
+</Wix>

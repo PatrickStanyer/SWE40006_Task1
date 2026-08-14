@@ -1,0 +1,5 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\\MyDistinctionApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\\Newtonsoft.Json.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\\x64\SQLite.Interop.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\\x86\SQLite.Interop.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\\System.Data.SQLite.dll
