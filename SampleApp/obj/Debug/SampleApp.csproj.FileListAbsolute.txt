@@ -1,0 +1,7 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\bin\Debug\SampleApp.exe.config
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\bin\Debug\SampleApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\bin\Debug\SampleApp.pdb
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\obj\Debug\SampleApp.csproj.AssemblyReference.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\obj\Debug\SampleApp.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\obj\Debug\SampleApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\SampleApp\obj\Debug\SampleApp.pdb
