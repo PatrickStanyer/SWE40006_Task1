@@ -1,0 +1,17 @@
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\MyDistinctionApp.exe.config
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\MyDistinctionApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\MyDistinctionApp.pdb
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\EntityFramework.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\System.Data.SQLite.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\EntityFramework.xml
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\bin\Release\System.Data.SQLite.xml
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\obj\Release\MyDistinctionApp.csproj.AssemblyReference.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\obj\Release\MyDistinctionApp.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\obj\Release\MyDistin.FD606FEF.Up2Date
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\obj\Release\MyDistinctionApp.exe
+C:\Users\Patrick\OneDrive - Swinburne University\2026\Semester 2\Software Deployment and Evolution\MyDistinctionApp\obj\Release\MyDistinctionApp.pdb
